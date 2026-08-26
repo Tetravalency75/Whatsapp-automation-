@@ -1,15 +1,14 @@
 
-
 import pywhatkit
 
-students = {"ashhaz" : '+917893191196', #enter numbers
-        "ayaan" : '+918074223654', }  #enter numbers
+students = {"ashhaz" : '+917893191196', #enter names and numbers
+        "ayaan" : '+918074223654', }  #enter names and numbers
 
 name = list(students)
 numbers = list(students.values())
 
 for i in range(len(students)):
-    message = f"This is an Automated mesage for {name[i]}"
+    message = f"This is an Automated mesage for {name[i]} from Nexus Coding Club "
     number = numbers[i]
 
     print(f"Sending message to {name[i]} at {number}...")
